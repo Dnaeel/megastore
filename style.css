@@ -1,0 +1,242 @@
+body {
+    background-color: black;
+}
+
+.main-block {
+    margin: 150px auto;
+    width: 640px;
+    height: 264px;
+    background-color: white;
+    padding-left: 10px;
+}
+
+.to-close {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.to-close button {
+    background: transparent;
+    border: 1px solid white;
+}
+
+.to-close button:hover {
+    cursor: pointer;
+}
+
+h2 {
+    font-family: 'Sora';
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+}
+
+h2+p {
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.entering-number {
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 14px;
+    width: 608px;
+    height: 40px;
+    border: 0.5px solid #DADADA;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.next-stronichk {
+    position: relative;
+    width: 384px;
+    height: 48px;
+    background: #232529;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    margin: 30px 120px;
+}
+
+.next-stronichk:hover {
+    cursor: pointer;
+}
+
+.main-block-2 {
+    margin: 150px auto;
+    width: 640px;
+    height: 328px;
+    background-color: white;
+    padding-left: 10px;
+}
+
+.main-block-2 p {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #A9A9A9;
+}
+
+.main-block-2 .entering-code {
+    width: 48px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 0.5px solid #DADADA;
+    border-radius: 12px;
+}
+
+.main-block-2 .column {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.main-block-3 {
+    position: relative;
+    padding-left: 10px;
+    width: 664px;
+    height: 576px;
+    background: #FFFFFF;
+    margin: 0 auto;
+}
+
+.main-block-3 h4 {
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Sora';
+}
+
+.rrow {
+    display: inline-block;
+}
+
+.arow {
+    position: relative;
+    right: 30px;
+}
+
+input[type="date"] {
+    width: 200px;
+    height: 48px;
+    opacity: 0.5;
+    border: 0.5px solid #AEAEAE;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    width: 30px;
+    height: 20px;
+}
+
+input[type="date"]:not(.has-value):before {
+    content: attr(placeholder);
+    width: 100%;
+}
+
+[type="text"] {
+    width: 200px;
+    height: 48px;
+    opacity: 0.5;
+    border: 0.5px solid #AEAEAE;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.chewing-place {
+    width: 418px;
+    height: 48px;
+}
+
+.next-stronichk3 {
+    position: relative;
+    width: 384px;
+    height: 48px;
+    background: #232529;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    margin: 15px 130px;
+}
+
+.next-stronichk3:hover {
+    cursor: pointer;
+}
+
+.main-block-4 {
+    position: relative;
+    padding-left: 10px;
+    width: 664px;
+    height: 586px;
+    background: #FFFFFF;
+    margin: 0 auto;
+}
+
+.questionnaire {
+    font-family: 'Sora';
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.monthly-salary {
+    width: 304px;
+}
+
+.monthly-salary+p {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.phone-purchase {
+    width: 625px;
+}
+
+.row .arrow {
+    position: relative;
+    right: 30px;
+}
+
+.arrow:hover {
+    cursor: pointer;
+}
+
+.main-block-5 {
+    margin: 150px auto;
+    width: 640px;
+    height: 328px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.wait-message {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: #A9A9A9;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
